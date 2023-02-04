@@ -1,0 +1,113 @@
+[
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"indexed": true,
+				"internalType": "int256",
+				"name": "id",
+				"type": "int256"
+			}
+		],
+		"name": "studentadd",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"indexed": true,
+				"internalType": "int256",
+				"name": "class",
+				"type": "int256"
+			}
+		],
+		"name": "studentclass",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "stream",
+				"type": "string"
+			}
+		],
+		"name": "studentstream",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_naam",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "_id",
+				"type": "int256"
+			}
+		],
+		"name": "studentaddf",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_naam",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "_class",
+				"type": "int256"
+			}
+		],
+		"name": "studentclassf",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_naam",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_stream",
+				"type": "string"
+			}
+		],
+		"name": "studentstreamf",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
