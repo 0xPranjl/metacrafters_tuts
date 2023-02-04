@@ -8,6 +8,7 @@ contract charity{
     constructor(){
         owner=msg.sender;
     }
+    
 function donate() public payable {
 require(msg.value>=5 ether,"minimum donation is 5 ether");
 donations[msg.sender]=msg.value;
